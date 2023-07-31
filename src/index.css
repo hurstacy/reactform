@@ -9,7 +9,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
-  background-image: url("nasa-earth.jpg");
+  background-image: url("./public/nasa-earth.jpg");
   background-repeat: no-repeat;
 }
 
