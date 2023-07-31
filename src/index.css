@@ -1,0 +1,82 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  text-align: center;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #ffffff;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  background-image: url("nasa-earth.jpg");
+  background-repeat: no-repeat;
+}
+
+h2 {
+  color: #ffffff;
+}
+
+h3 {
+text-align: top;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center; /* Horizontally center the items */
+  align-items: center; /* Vertically center the items */
+  min-height: 100vh;
+  border: 10px solid white;
+
+}
+
+a {
+  font-weight: 500;
+  color: #e6ab59;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #1e2378;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  color: #ebdf83;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #0b146e;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+button:hover {
+  border-color: #ddff64;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #e6e66a;
+  }
+}
